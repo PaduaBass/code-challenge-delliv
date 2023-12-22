@@ -14,7 +14,8 @@ export const register = {
   requiredName: 'O campo de nome é obrigatório!',
   requiredPassword: 'O campo de senha é obrigatório!',
   lengthMinPassword: 'A senha deve conter no mínimo 8 caracteres!',
-
+  failureCreateUser: 'Email já cadastrado!',
+  successCreateUSer: 'Usuário criado com sucesso!',
   //   RegisterInfo
   title: 'Registre-se Agora',
   subTitle:

@@ -10,6 +10,8 @@ import Link from 'next/link'
 import { signInUseCase } from '@/useCases/signin/useCaseSingIn'
 import { useRouter } from 'next/navigation'
 import { register } from '@/constants/register'
+import { ToastContainer, toast } from 'react-toastify'
+
 const FormRegister = () => {
   const {
     setValue,
@@ -18,11 +20,35 @@ const FormRegister = () => {
   } = useForm<SchemeFormRegister>({
     resolver: yupResolver(validationSchema),
   })
-  const { push } = useRouter()
+  const { replace } = useRouter()
+
   const handleLogin = (formValues: SchemeFormRegister) => {
-    signInUseCase(formValues, () => {
-      push('/')
-    })
+    signInUseCase(
+      formValues,
+      () => {
+        toast(register.successCreateUSer, {
+          type: 'success',
+          icon: false,
+          hideProgressBar: true,
+          closeButton: false,
+          closeOnClick: true,
+          autoClose: 1000,
+        })
+        setTimeout(() => {
+          replace('/')
+        }, 1200)
+      },
+      (e) => {
+        toast(register.failureCreateUser, {
+          type: 'error',
+          icon: false,
+          hideProgressBar: true,
+          closeButton: false,
+          closeOnClick: true,
+          autoClose: 1000,
+        })
+      },
+    )
   }
   return (
     <form
@@ -66,6 +92,7 @@ const FormRegister = () => {
       <Link href="/" className="self-center mt-2 text-white">
         {register.titleLinkGoBack}
       </Link>
+      <ToastContainer />
     </form>
   )
 }

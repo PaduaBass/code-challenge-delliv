@@ -7,6 +7,7 @@ export const useDispacthUser = () => {
   const dispath = useDispatch()
 
   const setUser = (user: User) => {
+    console.log(user)
     localStorage.setItem('@user', JSON.stringify(user))
     return dispath(userSlice.SET_USER(user))
   }
