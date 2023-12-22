@@ -31,19 +31,11 @@ export class UserService implements OnModuleInit {
           password_hash,
         },
       })
+
       return {
         name: user.name,
         email: user.email,
       }
-    } catch (e) {
-      throw new HttpException(e, HttpStatus.BAD_REQUEST)
-    }
-  }
-
-  async list() {
-    try {
-      const users = await this.prisma.user.findMany()
-      return users
     } catch (e) {
       throw new HttpException(e, HttpStatus.BAD_REQUEST)
     }

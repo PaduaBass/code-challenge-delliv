@@ -13,6 +13,7 @@ This project was developed taking into account the premises of Delliv's coding c
 
   * Go to the project folder and run the following command:
   * `docker compose up` or `sudo docker compose up`
+  * in case of any conflict when running docker compose up, consider stopping the conflicting containers
 * 3 Access Browser
 
   * open the browser and go to:
@@ -51,10 +52,10 @@ This project was developed taking into account the premises of Delliv's coding c
 
 * docker
 
-
 ### Preview System
 
-* Desktop - 
+* Desktop -
+
 <div style="display: flex; flex-direction: row; max-width: 100%; gap: 10px;" >
   <img src="https://drive.google.com/uc?export=download&id=1skmmhVUpEgazK14yVA31FhpnnnCKbs-4" width="300" >
   <img src="https://drive.google.com/uc?export=download&id=1tcEtAx8knhWy-FBn7nzaMYswM62MDAiK" width="300" >
