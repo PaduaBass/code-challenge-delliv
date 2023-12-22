@@ -55,16 +55,16 @@ This project was developed taking into account the premises of Delliv's coding c
 ### Preview System
 
 * Desktop - 
-<div style="display: flex; flex-direction: row; max-width: 100%;" >
-  <img href="https://drive.google.com/uc?export=download&id=1skmmhVUpEgazK14yVA31FhpnnnCKbs" with="300" >
-  <img href="https://drive.google.com/uc?export=download&id=1tcEtAx8knhWy-FBn7nzaMYswM62MDAiK" with="300" >
-  <img href="https://drive.google.com/uc?export=download&id=102RbLwZ4FdU10OAhaJHrEjFx2udLCVpi" with="300" >
+<div style="display: flex; flex-direction: row; max-width: 100%; gap: 10px;" >
+  <img src="https://drive.google.com/uc?export=download&id=1skmmhVUpEgazK14yVA31FhpnnnCKbs-4" width="300" >
+  <img src="https://drive.google.com/uc?export=download&id=1tcEtAx8knhWy-FBn7nzaMYswM62MDAiK" width="300" >
+  <img src="https://drive.google.com/uc?export=download&id=102RbLwZ4FdU10OAhaJHrEjFx2udLCVpi" width="300" >
 </div>
 
 * Mobile -
 
-<div style="display: flex; flex-direction: row; max-width: 100%;" >
-  <img href="https://drive.google.com/uc?export=download&id=1nq2_3lXy0s2K31rM4BfrldR1j7dTF1Od" with="300" >
-  <img href="https://drive.google.com/uc?export=download&id=1tb8YwwbcvFtAndn5dsP2VlW0_MRJP2Hc" with="300" >
-  <img href="https://drive.google.com/uc?export=download&id=1PvFOFyIrwoTpYAXpz-OnVOsPDW3439o5" with="300" >
+<div style="display: flex; flex-direction: row; max-width: 100%; gap: 10px;" >
+  <img src="https://drive.google.com/uc?export=download&id=1nq2_3lXy0s2K31rM4BfrldR1j7dTF1Od" width="200" >
+  <img src="https://drive.google.com/uc?export=download&id=1tb8YwwbcvFtAndn5dsP2VlW0_MRJP2Hc" width="200" >
+  <img src="https://drive.google.com/uc?export=download&id=1PvFOFyIrwoTpYAXpz-OnVOsPDW3439o5" width="200"  >
 </div>
