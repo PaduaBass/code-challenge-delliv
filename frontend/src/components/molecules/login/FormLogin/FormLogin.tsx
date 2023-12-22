@@ -49,7 +49,11 @@ const FormLogin = () => {
     )
   }
   return (
-    <form className="flex flex-col" onSubmit={handleSubmit(handleLogin)}>
+    <form
+      className="flex flex-col"
+      onSubmit={handleSubmit(handleLogin)}
+      noValidate
+    >
       <Typograph className="self-center text-xl font-semibold text-white">
         {login.loginTitle}
       </Typograph>

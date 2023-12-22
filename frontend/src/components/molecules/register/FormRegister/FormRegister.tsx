@@ -25,7 +25,11 @@ const FormRegister = () => {
     })
   }
   return (
-    <form onSubmit={handleSubmit(handleLogin)} className="flex flex-col">
+    <form
+      onSubmit={handleSubmit(handleLogin)}
+      className="flex flex-col"
+      noValidate
+    >
       <div className="flex items-center text-center justify-center w-full">
         <Typograph className="text-xl font-semibold text-white ">
           {register.titleRegister}
