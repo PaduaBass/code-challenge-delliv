@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react'
-import Header from './Header'
+import Header from '../../../../src/components/atoms/Header/Header'
 
 describe('Component header test', () => {
   it('should header must exist', () => {

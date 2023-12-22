@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import Avatar from './Avatar'
+import Avatar from '../../../../src/components/atoms/Avatar/Avatar'
 import userEvent from '@testing-library/user-event'
 describe('Component test avatar', () => {
   it('should text must exist and if possible click on the button', () => {

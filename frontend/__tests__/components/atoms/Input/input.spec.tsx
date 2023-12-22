@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react'
-import Input from './Input'
+import Input from '../../../../src/components/atoms/Input/Input'
 
 describe('Component input test', () => {
   const setup = () => {

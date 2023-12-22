@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import { Select } from './index'
+import { Select } from '../../../../src/components/atoms/Select/index'
 import userEvent from '@testing-library/user-event'
 
 describe('Component select test', () => {

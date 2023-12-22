@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import Typograph from './Typograph'
+import Typograph from '../../../../src/components/atoms/Typograph/Typograph'
 
 describe('Component typograph test', () => {
   it('should typograph must exist', () => {
